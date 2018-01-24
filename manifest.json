@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Lish",
+  "version": "1.0",
+  "description": "Demo",
+
+  "content_scripts": [{
+    "css": ["commentstyles.css"],
+    "js": ["content.js"],
+    "matches": ["<all_urls>"]
+  }]
+
+}
