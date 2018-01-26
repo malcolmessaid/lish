@@ -6,9 +6,14 @@
   "description": "Demo",
 
   "content_scripts": [{
-    "css": ["commentstyles.css"],
     "js": ["content.js"],
     "matches": ["<all_urls>"]
-  }]
+  }],
+
+  "browser_action": {
+    "default_title": "lish-test",
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  }
 
 }
