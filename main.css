@@ -1,5 +1,13 @@
-
-
 body {
-  margin: 15px;
+  margin: 25px;
+}
+header h1{
+  font-family: 'Work Sans', sans-serif;
+  margin: auto 0px;
+}
+
+header h3{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-style: normal;
 }

@@ -14,6 +14,11 @@
     "default_title": "lish-test",
     "default_icon": "icon.png",
     "default_popup": "index.html"
+  },
+
+  "background" : {
+    "scripts": ["eventPage.js"],
+    "persistent": false
   }
 
 }
