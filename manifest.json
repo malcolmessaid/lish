@@ -4,21 +4,20 @@
   "name": "Lish",
   "version": "1.0",
   "description": "Demo",
-
+  "permissions": ["contextMenus", "tabs"],
   "content_scripts": [{
     "matches": ["<all_urls>"],
-    "js": ["jquery-3.3.1.min.js", "content.js"]
+    "js": ["jquery-1.8.1.js", "lib/content.js", "lib/selection.js"]
   }],
 
   "browser_action": {
     "default_title": "lish-test",
-    "default_icon": "icon.png",
-    "default_popup": "index.html"
+    "default_icon": "extension/icon.png",
+    "default_popup": "extension/index.html"
   },
 
   "background" : {
-    "scripts": ["eventPage.js"],
-    "persistent": false
+    "scripts": ["lib/script.js", "lib/selection.js"]
   }
 
 }
