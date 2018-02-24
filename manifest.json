@@ -17,7 +17,7 @@
   },
 
   "background" : {
-    "scripts": ["lib/script.js", "lib/selection.js"]
+    "scripts": ["extension/script.js", "lib/selection.js"]
   }
 
 }
