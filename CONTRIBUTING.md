@@ -21,7 +21,7 @@
 ## Testing
 * I do not have unit tests written.
 * To test the code you've written. Go to chrome://extensions. Click 'Load unpacked extension' and open the repo folder. Every time you make a change you'll have to reload this page to update the extension.
-* Do your tests on a simple webpage at first. I have written test.html for that purpsoe.
+* Do your tests on a simple webpage at first. I have written test.html for that purpose.
 * To highlight: Right click and choose the 'highlight' option. Use test.html and make sure it works highlighting any combination of those divs. It should highlight the selection Red. 
 
 
