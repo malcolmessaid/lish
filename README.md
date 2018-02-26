@@ -30,11 +30,11 @@ Can Become:
 </h3>
 ```
 
-![Before](images/Before)
+![Before](images/Before.png)
 
 Becomes:
 
-![After](images/After)
+![After](images/After.png)
 
 
 
