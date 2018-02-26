@@ -35,6 +35,35 @@ Becomes
 ![Before](Images/Before.png) --> ![After](Images/After.png)
 
 
+### Goals
+* As *lish* only works for a set of siblings, a goal of this project is to improve coverage. The next step is to be able to be able to highlight multiple sets of Children. If it can deal with each of the sets on their own it should not be difficult to highlight the pair. i.e.
+
+```
+<header>
+  <h1>Test1</h1>
+  <h5>Test2</h5>
+  <h6>Test3</h6>
+  <h3>Test4</h3>
+</header>
+<main>
+  <p>Test 5</p>
+  <p>Test 6</p>
+</main>
+```
+
+
+
+
+#### Edge Case Bugs
+* Coverage for Nodes that do not have elemental children but have text node children must be implemented as well. i.e.
+
+```
+<header>
+  Test 0
+  <h1>Test1</h1>
+</header>
+```
+*
 
 
 ## Getting Started
