@@ -12,7 +12,7 @@ This library has simple functionality. In the context of  a chrome extension, *l
 <h6>Test3</h6>
 <h3>Test4</h3>
 ```
-Can Become:
+Becomes 
 ```
 <h1>
   Te
@@ -30,11 +30,13 @@ Can Become:
 </h3>
 ```
 
-![Before](images/Before.png)
+or
+
+![Before](Images/Before.png)
 
 Becomes:
 
-![After](images/After.png)
+![After](Images/After.png)
 
 
 
