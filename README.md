@@ -55,15 +55,11 @@ Becomes
 
 
 #### Edge Case Bugs
-* Coverage for Nodes that do not have elemental children but have text node children must be implemented as well. i.e.
+* Coverage for Nodes that do not have elemental children but have text node children must be implemented as well. An example of this could be a p tag with an a tag in it. i.e.
 
 ```
-<header>
-  Test 0
-  <h1>Test1</h1>
-</header>
+<p> Test <a> 1 </a> 2
 ```
-*
 
 
 ## Getting Started
