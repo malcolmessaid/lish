@@ -1,7 +1,7 @@
 # *lish*
 This repo holds the code for the Javascript library *lish*.
 
-This library has simple functionality. In the context of  a chrome extension, *lish* allows developers to wrap selections with tags (this base tag is a span tag, but his can easily be changed). It also hashes the content of the selection, giving the tag a class of that hash. This task may seem trivial and is if the selection is within just one tag, but it is more difficult if the selection spans multiple tags.
+This library has simple functionality. In the context of  a chrome extension, *lish* allows developers to wrap selections with tags (this base tag is a span tag, but this can easily be changed). It also hashes the content of the selection, giving the tag a class of that hash. This task may seem trivial and is if the selection is within just one tag, but it is more difficult if the selection spans multiple tags.
 
 ### Current Status
 * *lish* currently works on any set of sibling nodes that do not have children i.e.
@@ -32,7 +32,7 @@ Becomes
 ```
 
 
-![Before](Images/Before.png) --> ![After](Images/After.png)
+![Before](Images/Before.png) ![After](Images/After.png)
 
 
 ### Goals
@@ -58,7 +58,7 @@ Becomes
 * Coverage for Nodes that do not have elemental children but have text node children must be implemented as well. An example of this could be a p tag with an a tag in it. i.e.
 
 ```
-<p> Test <a> 1 </a> 2
+<p> Test <a> 1 </a> </p>
 ```
 
 
