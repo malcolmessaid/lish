@@ -65,7 +65,7 @@ Becomes
 ## Getting Started
 
 * There are more files in this repository than those that need to be downloaded for *lish* to be used. The only file that you need to use the functionality is [selection.js](lib/selection.js) in the lib folder.
-* Implement the file into your extentsion by making it a content script in your Manifest.Json. Fire the function 'getSelectionData' through a context menu to use the library.
+* Implement the file into your extension by making it a content script in your Manifest.Json. Fire the function 'getSelectionData' through a context menu to use the library.
 * This repository is also an example of how to implement selection.js. Look through the code in the extension folder if you need help with Chrome Extensions. All of the code is well commented so it should help you getting started.
 
 
