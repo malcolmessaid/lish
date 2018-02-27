@@ -1,7 +1,7 @@
 # *lish*
 This repo holds the code for the Javascript library *lish*.
 
-This library has simple functionality. In the context of  a chrome extension, *lish* allows developers to wrap selections with tags (this base tag is a span tag, but this can easily be changed). It also hashes the content of the selection, giving the tag a class of that hash. This task may seem trivial and is if the selection is within just one tag, but it is more difficult if the selection spans multiple tags.
+This library has simple functionality. In the context of  a chrome extension, *lish* allows developers to wrap selections with tags (the base case are span tags, but this can easily be changed). It also hashes the content of the selection, giving the tag a class of that hash. This task may seem trivial and is if the selection is within just one tag, but it is more difficult if the selection spans multiple tags.
 
 ### Current Status
 * *lish* currently works on any set of sibling nodes that do not have children i.e.
